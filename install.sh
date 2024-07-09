@@ -5,7 +5,7 @@ ANACONDA_URL="https://repo.anaconda.com/archive/Anaconda3-2023.03-Linux-x86_64.s
 # FILE name
 INSTALLER_NAME="Anaconda3-2023.03-Linux-x86_64.sh"
 # Download Path
-INSTALL_PATH="/raid/coss36/anaconda3"
+INSTALL_PATH="/raid/coss36/lily/anaconda3"
 
 # Checking wget is installed
 if ! command -v wget &> /dev/null
