@@ -3,5 +3,6 @@ channels:
   - defaults
 dependencies:
   - python=3.8
+  - flask
   - pip
   - gunicorn
