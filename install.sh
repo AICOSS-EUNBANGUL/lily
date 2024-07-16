@@ -28,5 +28,5 @@ chmod +x $INSTALLER_NAME
 rm $INSTALLER_NAME
 
 # ~/.bashrc에 경로추가
-echo 'export PATH="/raid/coss36/lily/anaconda3/bin:$PATH"' >> ~/.bashrc
+echo 'export PATH="~/anaconda3/bin:$PATH"' >> ~/.bashrc
 source ~/.bashrc
