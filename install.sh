@@ -15,20 +15,18 @@ then
     sudo apt-get install wget -y
 fi
 
-# 1. 아나콘다 설치 스크립트 다운로드
-echo "[아나콘다 설치 스크립트 다운로드]"
+# 아나콘다 설치 스크립트 다운로드
 wget $ANACONDA_URL
 
-# 2. 아나콘다 스크립트 권한 부여
-echo "[아나콘다 설치 스크립트 실행 권한 부여]"
+# 아나콘다 스크립트 권한 부여
 chmod +x $INSTALLER_NAME
 
-# 3. 아나콘다 설치
-echo "[아나콘다 설치]"
+# 아나콘다 설치
 ./$INSTALLER_NAME -b -p $INSTALL_PATH
 
-# 4. 설치 스크립트 삭제
-echo "[아나콘다 스크립트 삭제]"
+# 설치 스크립트 삭제
 rm $INSTALLER_NAME
 
-echo "[아나콘다 설치 완료!]"
+# ~/.bashrc에 경로추가
+echo 'export PATH="/raid/coss36/lily/anaconda3/bin:$PATH"' >> ~/.bashrc
+source ~/.bashrc
