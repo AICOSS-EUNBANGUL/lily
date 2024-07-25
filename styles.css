@@ -1,0 +1,56 @@
+/* Vector 1 */
+
+position: absolute;
+width: 999px;
+height: 1405px;
+
+border: 10px solid #000000;
+
+
+/* Vector 2 */
+
+position: absolute;
+width: 3205px;
+height: 3817px;
+
+border: 10px solid #000000;
+
+
+/* 프로젝트현황대시보드 */
+
+position: relative;
+width: 987.43px;
+height: 787.07px;
+left: 427.71px;
+top: 209.82px;
+
+
+
+/* 프로젝트현황_간단 */
+
+position: relative;
+width: 734.14px;
+height: 99.05px;
+left: 427.71px;
+top: 84.33px;
+
+
+
+/* 파인튜닝시작 버튼 */
+
+position: relative;
+left: 82.36%;
+right: 1.75%;
+top: 8.3%;
+bottom: 82.09%;
+
+
+
+/* Sidebar */
+
+position: relative;
+left: 0%;
+right: 76.85%;
+top: -0.1%;
+bottom: 0%;
+

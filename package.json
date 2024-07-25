@@ -1,0 +1,16 @@
+{
+  "name": "late-appointment-enlist-wfrlr",
+  "productName": "late-appointment-enlist-wfrlr",
+  "description": "My Electron application description",
+  "keywords": [],
+  "main": "./main.js",
+  "version": "1.0.0",
+  "author": "SAMSUNG",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "electron": "31.2.1"
+  }
+}
